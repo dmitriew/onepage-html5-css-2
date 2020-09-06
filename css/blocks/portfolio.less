@@ -1,0 +1,49 @@
+// main: ../style.less
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem 2.8rem;
+}
+.portfolio__col {
+  flex-basis: 33.33333%;
+}
+.portfolio__image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  
+}
+.work {
+  box-shadow: 0 0 4px fade(#000, 25%);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.2s linear;
+  margin: 1rem;
+  &:hover {
+    box-shadow: 0 0 25px fade(#000, 25%);
+  }
+  
+}
+.portfolio__item-content {
+  padding: 1rem 0.8rem;
+}
+.portfolio__cat {
+  color: @black;
+  font-family: Montserrat;
+  font-size: .8rem;
+  font-weight: 400;
+  line-height: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin-bottom: 0.5rem;
+}
+.porfolio__title {
+  display: flex;
+  justify-content: space-between;
+  color: @black;
+  font-family: Montserrat;
+  font-size: 1.06rem;
+  font-weight: 700;
+  line-height: 15px;
+  text-transform: uppercase;
+}

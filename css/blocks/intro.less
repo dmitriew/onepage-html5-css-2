@@ -1,0 +1,43 @@
+// main: ../style.less
+.intro__inner {
+display: flex;
+border-bottom: 1px solid fade(@gray,30%);
+padding-bottom: 120px;
+background: url("../images/right_side.png") right top no-repeat;
+padding-top: 100px;
+position: relative;
+
+}
+.intro__content {
+  width: 50%;
+}
+.intro__photo {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+.intro__subtitle {
+  margin-bottom: 7px;
+  color: @black;
+  font-size: 2.13rem;
+  font-weight: 200;
+  line-height: 15px;
+
+}
+.intro__title {
+  margin-bottom: 5px;
+  color: @black;
+  font-size: 3rem;
+  font-family: "Montserrat - Bold";
+  font-weight: 700;
+}
+.intro__text {
+  color: fade(@black,70%);
+  font-family: Montserrat;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 25px;
+}
